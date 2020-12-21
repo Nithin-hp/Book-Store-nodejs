@@ -23,7 +23,14 @@
  
  ![orders page](https://user-images.githubusercontent.com/71778546/102786987-64e13b00-43c6-11eb-89cb-bdf1014112d4.PNG)
 
+## **demo Video**
+[Watch the demo video](https://user-images.githubusercontent.com/71778546/102787476-239d5b00-43c7-11eb-80b7-5f90951c4e62.mp4)
 
-[[Watch the demo video](https://user-images.githubusercontent.com/71778546/102787476-239d5b00-43c7-11eb-80b7-5f90951c4e62.mp4)
+
+# Steps to Install
+1)CLone the repo
+2)Run npm install
+3)In appjs replace **MONGODB_URI** with your Mongodb Project Link
+4)npm start
 
 
