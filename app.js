@@ -10,7 +10,7 @@ const flash = require('connect-flash');
 
 const errorController = require('./controllers/error');
 const User = require('./models/user');
-const PORT=process.env.PORT || 3000
+
 const MONGODB_URI =
   'mongodb+srv://nithin:uLCmJjag4RDTXGZZ@cluster0.y8hjs.mongodb.net/shop?retryWrites=true&w=majority';
 
@@ -68,7 +68,7 @@ app.use(errorController.get404);
 mongoose
   .connect(MONGODB_URI)
   .then(result => {
-    app.listen(PORT);
+    app.listen(3000);
   })
   .catch(err => {
     console.log(err);
